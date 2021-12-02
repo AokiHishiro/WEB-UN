@@ -1,0 +1,35 @@
+ul.sol{
+  list-style-image: url('heart.png'); /*C:\Users\nasut\Downloads\Telegram Desktop*/
+}
+body {
+  background-color: lavender;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8mm;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+/*составной селектор */
+th td {
+  border: solid 1px #000;
+  padding: 3px;
+}
+
+.lefting{
+    float: left;/*выравнивание по левому краю*/
+    margin: 0 10px 10px 0;/** задаем отступы вокруг картинки*/
+  }
+
+.zebra2 td:nth-child(odd) {
+  background-color: #C9E4F6;/* фон нечетных столбцов */
+}
+.zebra2 td:nth-child(even) {
+  background-color: #B4DAF2;/* фон четных столбцов */
+}
+.zebra2 tr:hover td{
+  background: #B4FFF2;/* фон строки при наведении */
+}
